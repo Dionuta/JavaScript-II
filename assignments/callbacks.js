@@ -63,7 +63,7 @@ function contains(item, list, cb) {
   // Pass true to the callback if it is, otherwise pass false.
   if (list.includes(item)){           /*The includes() method determines whether an array 
                                        includes a certain value among its entries, returning true or false as appropriate.*/
-    return cb(true);
+  return cb(true);
   }
   return cb(false);
 }
